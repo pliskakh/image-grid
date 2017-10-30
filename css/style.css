@@ -59,6 +59,19 @@ textarea {
 
 }
 
-.ba-image-grid img {
+.ba-row img {
 	display: block;
+}
+
+.ba-row{
+	margin-left: -20px;
+}
+
+.ba-row + .ba-row{
+	margin-top: 20px;
+}
+
+.ba-row > [class*="ba-width-"]{
+	float: left;
+	padding-left: 20px;
 }

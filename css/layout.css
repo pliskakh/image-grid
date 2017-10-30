@@ -118,15 +118,19 @@ body, html {
 .ba-grid:after {
 	clear: both;
 }
+
 .ba-grid{
 	margin-left: -30px;
 }
+
 .ba-grid + .ba-grid{
 	margin-top: 30px;
 }
+
 [class*="ba-width-"] {
     width: 100%;
 }
+
 .ba-grid > [class*="ba-width-"]{
 	float: left;
 	padding-left: 30px;
@@ -135,9 +139,11 @@ body, html {
 .ba-grid--nopad {
     margin-left: 0;
 }
+
 .ba-grid--nopad + .ba-grid--nopad {
     margin-top: 0;
 }
+
 .ba-grid--nopad > [class*="ba-width-"] {
     padding-left: 0;
 }
