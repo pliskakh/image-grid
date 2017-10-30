@@ -1,5 +1,5 @@
 body{
-
+	color: #4D5152;
 }
 
 /* Layout */
@@ -9,7 +9,7 @@ body{
 }
 
 .ba-header{
-	padding-bottom: 20px;
+	padding-bottom: 17px;
 }
 
 .ba-header h1{
@@ -64,14 +64,14 @@ textarea {
 }
 
 .ba-row{
-	margin-left: -20px;
+	margin-left: -15px;
 }
 
 .ba-row + .ba-row{
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .ba-row > [class*="ba-width-"]{
 	float: left;
-	padding-left: 20px;
+	padding-left: 15px;
 }
